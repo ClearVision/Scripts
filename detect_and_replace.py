@@ -1,6 +1,3 @@
-# This script is to aid in finding references that can be shorthands, defined in the variables.scss file
-# This script was designed for use with Clearvision variables and needs heavy modification for indivual use. 
-
 import re
 import os
 

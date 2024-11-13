@@ -1,6 +1,3 @@
-# This script is descigned to aid in scanning the scss files for any place holders that no longer exist.
-# Since this was designed for ClearVision-v6, in order to use it for your own neeeds you'll want to change the selector_file_path and scss_directory.
-
 import re
 import os
 

@@ -1,8 +1,3 @@
-# This script is intended to aid in replacing raw css with placeholders. 
-# Designed for use with ClearVision, for use with other projects you'll probably want to adjust the selector_file_path and ignore files and folders
-# When running you may want to use other placeholder names, the script will create placeholders as the actual class name minus suffix's, so 
-# .archivedDivider_a6d69a would be %archivedDivider
-
 import re
 import os
 
