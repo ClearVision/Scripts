@@ -1,7 +1,7 @@
 
 # ClearVision Scripts
 
-<p>Scripts designed to assist with managing and modifying SCSS files within the ClearVision theme. These scripts help with tasks like replacing shorthand variables, removing invalid selectors, and converting raw CSS to placeholders. They are intended for use with the ClearVision project but may need modification for individual use cases.</p>
+<p>Scripts designed to assist with managing and modifying SCSS files within the ClearVision theme. These scripts help with tasks like replacing shorthand variables, removing invalid selectors, and converting raw CSS to placeholders. They are intended for use with the ClearVision project but can be modified for individual use cases.</p>
 
 <p><strong>Support:</strong> <a href="https://discord.gg/7pNUC9C">ClearVision Support Server</a></p>
 
