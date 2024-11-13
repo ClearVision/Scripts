@@ -2,16 +2,16 @@ MIT License
 
 Copyright (c) 2024 ClearVision
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, **except for commercial purposes**, as outlined in the "License Scope" section below. This permission is subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, except for commercial purposes, as outlined in the "License Scope" section below. This permission is subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-# **License Scope**
+License Scope
 This repository includes scripts developed under the ClearVision organization. Unless explicitly noted, the following conditions apply:
 
 Scripts Licensed Under MIT (Non-Commercial):
 All content within the scripts directory is licensed under a modified MIT License. You are free to use, copy, modify, and distribute these scripts for personal or non-commercial purposes.
 Commercial use of these scripts is prohibited without prior written permission from the ClearVision organization.
 
-# **Warranty and Liability**
+Warranty and Liability
 THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
