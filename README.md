@@ -22,7 +22,7 @@
 <p>The ClearVision Scripts help automate certain tasks within the theme, such as replacing shorthand variables, cleaning up obsolete selectors, and converting raw CSS into placeholder names. Below is an overview of each script and its purpose:</p>
 
 <ul>
-  <li><strong>Detect and Replace:</strong> Scans SCSS files for shorthand references that can be replaced with variables defined in the `variables.scss` file.</li>
+  <li><strong>Detect and Replace:</strong> Scans SCSS files for shorthand references that can be replaced with variables defined in the <code>variables.scss</code> file.</li>
   <li><strong>Remove Invalids:</strong> Scans SCSS files for placeholder selectors that no longer exist, helping to clean up outdated or orphaned code.</li>
   <li><strong>Replace Raw CSS:</strong> Replaces raw CSS selectors with placeholders, making it easier to manage styles across projects and reduce duplication.</li>
 </ul>
@@ -30,8 +30,8 @@
 <hr>
 
 <h2 id="detect-and-replace">Detect and Replace</h2>
-<p>This script aids in finding references that can be shorthand and replacing them with the appropriate variable from the `variables.scss` file.</p>
-<p><strong>Maintained by <a href="https://github.com/YourUsername">YourName</a></strong></p>
+<p>This script aids in finding references that can be shorthand and replacing them with the appropriate variable from the <code>variables.scss</code> file.</p>
+<p><strong>Maintained by <a href="https://github.com/babyboysnow">Snow</a></strong></p>
 
 <details>
   <summary>Usage</summary>
@@ -40,7 +40,7 @@
 python detect_and_replace.py
 </code></pre>
 
-  <p>Modify the `variables.scss` file to ensure all your shorthands are defined. Run the script to automatically replace any shorthand references in your SCSS files.</p>
+  <p>Modify the <code>variables.scss</code> file to ensure all your shorthands are defined. Run the script to automatically replace any shorthand references in your SCSS files.</p>
 
   <p><strong>Note:</strong> This script was designed for use with the ClearVision variables and may need modification for other use cases.</p>
 </details>
@@ -49,7 +49,7 @@ python detect_and_replace.py
 
 <h2 id="remove-invalids">Remove Invalids</h2>
 <p>This script scans SCSS files for selectors that no longer exist, helping to clean up invalid placeholders.</p>
-<p><strong>Maintained by <a href="https://github.com/YourUsername">YourName</a></strong></p>
+<p><strong>Maintained by <a href="https://github.com/babyboysnow">Snow</a></strong></p>
 
 <details>
   <summary>Usage</summary>
@@ -58,7 +58,7 @@ python detect_and_replace.py
 python remove_invalids.py
 </code></pre>
 
-  <p>Make sure to adjust the `selector_file_path` and `scss_directory` in the script to fit your project structure. Running the script will remove any invalid or obsolete selectors from your SCSS files.</p>
+  <p>Make sure to adjust the <code>selector_file_path</code> and <code>scss_directory</code> in the script to fit your project structure. Running the script will remove any invalid or obsolete selectors from your SCSS files.</p>
 
   <p><strong>Note:</strong> This script was designed specifically for ClearVision-v6, so some adjustments will be necessary for other projects.</p>
 </details>
@@ -67,7 +67,7 @@ python remove_invalids.py
 
 <h2 id="replace-raw-css">Replace Raw CSS</h2>
 <p>This script replaces raw CSS selectors with placeholders, making the code more modular and easier to manage.</p>
-<p><strong>Maintained by <a href="https://github.com/YourUsername">YourName</a></strong></p>
+<p><strong>Maintained by <a href="https://github.com/babyboysnow">Snow</a></strong></p>
 
 <details>
   <summary>Usage</summary>
@@ -76,9 +76,9 @@ python remove_invalids.py
 python replace_raw_css.py
 </code></pre>
 
-  <p>Ensure that the `selector_file_path` and `ignore_files` are set correctly for your project. This script will generate placeholders for CSS selectors, using the class name without any suffixes.</p>
+  <p>Ensure that the <code>selector_file_path</code> and <code>ignore_files</code> are set correctly for your project. This script will generate placeholders for CSS selectors, using the class name without any suffixes.</p>
 
-  <p><strong>Example:</strong> The class `.archivedDivider_a6d69a` will be replaced with the placeholder `%archivedDivider`.</p>
+  <p><strong>Example:</strong> The class <code>.archivedDivider_a6d69a</code> will be replaced with the placeholder <code>%archivedDivider</code>.</p>
 </details>
 
 <hr>
